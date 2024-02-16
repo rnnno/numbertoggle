@@ -1,7 +1,7 @@
 
 augroup numbertoggle
-  autocmd !
-  autocmd InsertEnter set nornu
-  autocmd InsertLeave set rnu
+  autocmd!
+  autocmd InsertEnter * echo "InsertEnter"
+  autocmd InsertLeave * echo "InsertLeave"
 augroup END
 
